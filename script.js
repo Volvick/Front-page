@@ -93,7 +93,7 @@ submitBtn.addEventListener('click',()=>{
   }
   var file = new File(
     [pdfBytes],
-    "Padhega India Subscription Certificate.pdf",
+    "Front-page.pdf",
     {
       type: "application/pdf;charset=utf-8",
     }
