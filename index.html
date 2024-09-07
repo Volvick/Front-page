@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate for PadhegaIndia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="box">
+    <header>
+        <img src="https://raw.githubusercontent.com/Volvick/image/main/nse-6071604234005749160-1000240330.jpg" alt="Padhega India Logo">
+        <h4>Get your Front-Page</h4>
+        
+    </header>
+    <main>
+
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Your name" id="name" minlength="3" required
+            maxlength="30">
+
+
+        <label for="classs">Type Your Class</label>
+        <input required type="text" name="Classs" autocomplete="classs" placeholder="Eg:- X - C " id="classs" minlength="3" required
+            maxlength="10">
+
+
+        <label for="roll">Type Your Roll</label>
+        <input required type="number" name="Roll" autocomplete="roll" placeholder="Your Roll no" id="roll" minlength="3" required
+            maxlength="2">
+
+        <label for="admno">Type Your Admno</label>
+        <input required type="number" name="Admno" autocomplete="admno" placeholder="Your admno no" id="admno" minlength="3" required
+            maxlength="4">
+        <Button id="submitBtn">Get Certificate</Button>
+
+
+    </main>
+</div>
+    
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <!-- <script src="./FileSaver.js"></script> -->
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
